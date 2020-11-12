@@ -9,11 +9,38 @@ body {
   font-family: var(--main-font);
 }
 
-.fa-cart-plus {
+.fa-cart-plus,.fa-trash-alt,.fa-edit {
   cursor: pointer;
   
 }
+a:link,a:visited{
+    color:black;
+}
 
+.spinner-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    z-index:111;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.spinner-container2{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    z-index:111;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
 /* .ellipsis {
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -112,8 +139,23 @@ nav .nav-links-main a {
   overflow-x: scroll;
 }
 
-/* Under 8 */
+/* Under 50 */
 #under5-container {
   flex-wrap: nowrap;
   overflow-x: scroll;
 }
+
+/* -----------DETAILS PRODUCT PAGE--------------*/
+
+.details__container{
+    margin-top: 10%;;
+}
+.details__container h4{
+font-weight: 700;
+color:var(--main-color-red)
+}
+.details__container h5{
+font-weight: 700;
+
+}
+
